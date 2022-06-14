@@ -2,32 +2,34 @@
 # 1. Iterate 0 to 10 using for loop, do the same using while loop.
 # First solution of "For" loop:
 k = [0,1,2,3,4,5,6,7,8,9,10]
-for i in k:
-    print(i)                    
+for i in k:                     # 'i' is a temporary name to refer to the list's items, valid only inside this loop
+    print(i)                    # the numbers will be printed line by line, from 0 to 10
                                 # End.
 
 
 # Second solution of "For" loop:
-for i in range(11):
-    print(i)
+for i in range(11):             # 'i' is a temporary name to refer to the list's items, valid only inside this loop
+    print(i)                    # the numbers will be printed line by line, from 0 to 10
                                 # End.
 
 
 # First solution of "While" loop:
 number = 0
-while number < 11:
-    print(number)
-    number = number + 1
+while number < 11:              # the condition becomes false when number is 11, that is when the loop stops
+    print(number)               # at this line, the loop will go infinte
+    number = number + 1         # this line will add 1 to 'number' on every iteration, so when number reaches 11, the  loop stops (11 won't be printed)
                                 # End.
 
 # 2. Iterate 10 to 0 using for loop, do the same using while loop.
 # First solution of "For" loop:
-k = [10,9,8,7,6,5,4,3,2,1,0]
-for i in k:
-    print(i)
+k = [10,9,8,7,6,5,4,3,2,1,0]    # numbers are stored in 'k' as a list
+for i in k:                     # 'i' is a temporary name to refer to the list's items, valid only inside this loop
+    print(i)                    # the numbers will be printed line by line, from 10 to 0
                                 # End.
 
 # Second solution of "For" loop:
+from audioop import reverse
+from turtle import backward
 n = 0
 for n in reversed(range(11)):
     print(n) 
