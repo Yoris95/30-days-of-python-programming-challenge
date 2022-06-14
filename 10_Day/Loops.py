@@ -48,27 +48,33 @@ while n <= 10:
                                 # End.
 
 # 3. Write a loop that makes seven calls to print(), so we get on the output the following triangle:
-# First solution:
-a = "#"
-b = "##"
-c = "###"
-d = "####"
-e = "#####"
-f = "######"
-g = "#######"
+'''
+  #
+  ##
+  ###
+  ####
+  #####
+  ######
+  ######## 
+'''
 
-print(a)
-print(b)
-print(c)
-print(d)
-print(e)
-print(f)
-print(g)
-                                # End.
-
-# Second solution: 
+# First solution: 
 n = 0
 while n < 7:
     print("#" * (n + 1))
     n = n + 1
                                 # End.
+
+# 4. Use nested loops to create the following:
+'''
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+# # # # # # # #
+'''
+
+# First solution:
