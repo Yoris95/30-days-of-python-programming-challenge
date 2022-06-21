@@ -59,7 +59,6 @@ while n <= 10:
   ######
   ######## 
 '''
-
 # First solution: 
 n = 0
 while n < 7:
@@ -68,12 +67,22 @@ while n < 7:
                                 # End.
 
 # Second solution: 
-for i in range(0, 6):
+for i in range(0, 7):
     for j in range(0, 1 + i):
-        print('*', end='')
+        print('#', end = '')
     print()                                
-                                # End.        
-        
+                                # End.
+
+# Third solution:
+for i in range (0, 7):
+    for j in range (0, 7):
+        if j > i:
+            print()
+            break
+        else:
+            print("#", end = "")
+                                # End.
+
 # 4. Use nested loops to create the following:
 '''
 # # # # # # # #
@@ -89,5 +98,5 @@ for i in range(0, 6):
 # First solution:
 for i in range(0, 8):
     for j in range(8):
-        print('#', end=' ')
+        print('#', end = ' ')
     print()
