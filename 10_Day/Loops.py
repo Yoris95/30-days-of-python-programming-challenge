@@ -89,5 +89,5 @@ for i in range(0, 6):
 # First solution:
 for i in range(0, 8):
     for j in range(8):
-        print('# ', end='')
+        print('#', end=' ')
     print()
