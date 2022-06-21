@@ -67,6 +67,13 @@ while n < 7:
     n = n + 1
                                 # End.
 
+# Second solution: 
+for i in range(0, 6):
+    for j in range(0, 1 + i):
+        print('*', end='')
+    print()                                
+                                # End.        
+        
 # 4. Use nested loops to create the following:
 '''
 # # # # # # # #
@@ -80,3 +87,7 @@ while n < 7:
 '''
 
 # First solution:
+for i in range(0, 8):
+    for j in range(8):
+        print('# ', end='')
+    print()
