@@ -1,35 +1,31 @@
-# Exercise Level 1.
+# Level 1
 # 1. Iterate 0 to 10 using for loop, do the same using while loop.
 # First solution of "For" loop:
-k = [0,1,2,3,4,5,6,7,8,9,10]
-for i in k:                     # 'i' is a temporary name to refer to the list's items, valid only inside this loop
-    print(i)                    # the numbers will be printed line by line, from 0 to 10
+k = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in k:
+    print(i)                    
                                 # End.
-
 
 # Second solution of "For" loop:
-for i in range(11):             # 'i' is a temporary name to refer to the list's items, valid only inside this loop
-    print(i)                    # the numbers will be printed line by line, from 0 to 10
+for i in range(11):
+    print(i)
                                 # End.
-
 
 # First solution of "While" loop:
 number = 0
-while number < 11:              # the condition becomes false when number is 11, that is when the loop stops
-    print(number)               # at this line, the loop will go infinte
-    number = number + 1         # this line will add 1 to 'number' on every iteration, so when number reaches 11, the  loop stops (11 won't be printed)
+while number < 11:
+    print(number)
+    number = number + 1
                                 # End.
 
 # 2. Iterate 10 to 0 using for loop, do the same using while loop.
 # First solution of "For" loop:
-k = [10,9,8,7,6,5,4,3,2,1,0]    # numbers are stored in 'k' as a list
-for i in k:                     # 'i' is a temporary name to refer to the list's items, valid only inside this loop
-    print(i)                    # the numbers will be printed line by line, from 10 to 0
+k = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+for i in k:
+    print(i)
                                 # End.
 
 # Second solution of "For" loop:
-from audioop import reverse
-from turtle import backward
 n = 0
 for n in reversed(range(11)):
     print(n) 
@@ -93,10 +89,10 @@ while line < sum_line:
         line = line + 1
         sign = 0
         continue    
-    print("#", end="")
+    print("*", end="")
     sign = sign + 1
-                                # End.        
-        
+                                # End.
+
 # 4. Use nested loops to create the following:
 '''
 # # # # # # # #
@@ -114,3 +110,44 @@ for i in range(0, 8):
     for j in range(8):
         print('#', end = ' ')
     print()
+                                # End.
+
+# 5. Print the following pattern:
+'''
+0 x 0 = 0
+1 x 1 = 1
+2 x 2 = 4
+3 x 3 = 9
+4 x 4 = 16
+5 x 5 = 25
+6 x 6 = 36
+7 x 7 = 49
+8 x 8 = 64
+9 x 9 = 81
+10 x 10 = 100
+'''
+
+# 6. Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+
+# 7. Use for loop to iterate from 0 to 100 and print only even numbers
+
+# 8. Use for loop to iterate from 0 to 100 and print only odd numbers
+
+# Level 2
+# 1. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+'''The sum of all numbers is 5050.'''
+
+# 2. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+'''The sum of all evens is 2550. And the sum of all odds is 2500.'''
+
+# Level 3
+# 1. Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
+
+# 2. This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
+
+# 3. Go to the data folder and use the countries_data.py file.
+'''
+What are the total number of languages in the data
+Find the ten most spoken languages from the data
+Find the 10 most populated countries in the world
+'''
