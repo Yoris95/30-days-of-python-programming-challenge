@@ -83,6 +83,20 @@ for i in range (0, 7):
             print("#", end = "")
                                 # End.
 
+# Fourth solution:
+sum_line = 7
+line = 0
+sign = 0
+while line < sum_line:
+    if (sign) >= (line + 1):
+        print()
+        line = line + 1
+        sign = 0
+        continue    
+    print("#", end="")
+    sign = sign + 1
+                                # End.        
+        
 # 4. Use nested loops to create the following:
 '''
 # # # # # # # #
