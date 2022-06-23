@@ -26,3 +26,27 @@ else:
 Enter your age: 30
 You are 5 years older than me.
 '''
+# Solution:
+my_age = int(input("Enter my age: ")) 
+your_age = int(input("Enter your age: "))
+year = my_age - your_age 
+if my_age > your_age:
+    if (year) == 1:
+        print("I am 1 year older than you")
+    else:
+        print("I am", year, "years older than you")
+elif your_age > my_age:
+    if (year) == -1:
+        print("You are 1 year older than me")
+    else:
+        print("You are", abs(year), "years older than me")
+else:
+    print("We are bornt in the same year")
+                                                                    # End.
+        
+# 3. Get two numbers from the user using input prompt. If a is greater than b return a is greater than b, if a is less b return a is smaller than b, else a is equal to b. Output:
+'''
+Enter number one: 4
+Enter number two: 3
+4 is greater than 3
+'''
