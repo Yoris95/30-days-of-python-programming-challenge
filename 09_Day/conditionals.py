@@ -50,3 +50,14 @@ Enter number one: 4
 Enter number two: 3
 4 is greater than 3
 '''
+# Solution:
+a = int(input("Enter number one:"))
+b = int(input("Enter number two:"))
+
+if a > b:
+    print(a, "is greater than", b)
+elif a < b:
+    print(a, "ia smaller than", b)
+else:
+    print(a, "is equal to", b)
+                                        # End.
