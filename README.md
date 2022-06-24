@@ -4,7 +4,7 @@ This is my documentation about my journey of solving 30 days challenge by Asaben
 
 |# Day | Topics                                                    |
 |------|:---------------------------------------------------------:|
-| 01  |  [Introduction](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/01_Day)|
+| 01  |  [Introduction](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/01_Day) target="#"|
 | 02  |  [Variables](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/02_Day)|
 | 03  |  [Operators](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/03_Day)|
 | 04  |  [Strings](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/04_Day)|
