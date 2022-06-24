@@ -6,7 +6,7 @@ This is my documentation about my journey of solving 30 days challenge by Asaben
 
 |# Day | Topics                                                    |
 |------|:---------------------------------------------------------:|
-| 01  |  [Introduction](./readme.md)|
+| 01  |  [Introduction](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/01_Day))|
 | 02  |  [Variables, Built-in Functions](https://github.com/Yoris95/30-days-of-python-programming-challenge/tree/main/02_Day)|
 | 03  |  [Operators](./03_Day_Operators/03_operators.md)|
 | 04  |  [Strings](./04_Day_Strings/04_strings.md)|
