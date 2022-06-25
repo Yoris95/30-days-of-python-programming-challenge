@@ -38,28 +38,30 @@ print(convert_celsius_to_fahrenheit(30))
 # 5. Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
 # Solution 1:
 def check_season(month):
-    msg1 = "Autumn"
-    msg2 = "Summer"
-    msg3 = "Spring"
-    msg4 = "Winter"
-    msg5 = "Undefined - invalid month"
-    msg = ""
+    season1 = "Autumn"
+    season2 = "Summer"
+    season3 = "Spring"
+    season4 = "Winter"
+    error = "Wrong Input!"
+    season = ""
     if month == "September" or month == "October" or month == "November":
-        msg = msg1
+        season = season1
     elif month == "June" or month == "July" or month == "August":
-        msg = msg2
+        season = season2
     elif month == "March" or month == "April" or month == "May":
-        msg = msg3
+        season = season3
     elif month == "December" or month == "January" or month == "February":
-        msg = msg4
+        season = season4
     else:
-        msg = msg5
-    return msg
-print(check_season("December"))
+        season = error
+    return season
+
+n = check_season(input("What month is it now: "))
+print("This season is", n)
                                     # End.
 
 # Solution 2:
-def get_season(month):
+def check_season(month):
     season = {
         'Spring': ['March', 'April', 'May'],
         'Summer': ['June', 'July', 'August'],
@@ -70,7 +72,8 @@ def get_season(month):
     for k in key:
         if month in season[k]: 
             return k
-    return 'invalid month'
+    return 'Wrong input'
  
-print(get_season('October'))
+n = check_season(input("What month is it now: "))
+print("This season is", n)
                                                             # End.
