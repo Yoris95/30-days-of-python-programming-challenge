@@ -77,3 +77,23 @@ def check_season(month):
 n = check_season(input("What month is it now: "))
 print("This season is", n)
                                                             # End.
+    
+# 6. Write a function called calculate_slope which return the slope of a linear equation
+# Solution:
+def calculate_slope(m,x,b):
+    y = 0
+    y = m*x + b
+    return y
+result = calculate_slope(int(input("m = ")), int(input("x = ")), int(input("b = ")))
+print("The result of y is {}".format(result))
+                                                        # End.
+
+# 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, solve_quadratic_eqn.
+# Solution:
+def solve_quadratic_eqn(a,b,c,x):
+    y = 0
+    y = a*(x**2) + b*x + c 
+    return y
+result = solve_quadratic_eqn(int(input("a = ")), int(input(("b = "))), int(input(("c = "))), int(input(("x = "))))
+print("The result of y {}".format(result))
+                                                        # End.
