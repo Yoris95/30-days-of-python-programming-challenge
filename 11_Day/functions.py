@@ -97,3 +97,12 @@ def solve_quadratic_eqn(a,b,c,x):
 result = solve_quadratic_eqn(int(input("a = ")), int(input(("b = "))), int(input(("c = "))), int(input(("x = "))))
 print("The result of y {}".format(result))
                                                         # End.
+
+# 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
+# Solution:
+n = [1, 2, 3, 4, 5]
+def print_list(n):
+    for i in range(0, len(n)):
+        print(n[i])
+print_list(n)
+                                # End.
