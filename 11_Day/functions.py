@@ -106,3 +106,39 @@ def print_list(n):
         print(n[i])
 print_list(n)
                                 # End.
+
+# 9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
+'''print(reverse_list([1, 2, 3, 4, 5]))
+# [5, 4, 3, 2, 1]
+print(reverse_list1(["A", "B", "C"]))
+# ["C", "B", "A"]'''
+
+# Solution 1
+array = [1, 2, 3, 4, 5]
+def reverse_list(array):
+    result = []
+    for i in array:
+        result = [i] + result
+    return result
+print(reverse_list(array))
+                                    # End.
+
+# Solution 2
+array = [1, 2, 3, 4, 5]
+def reverse_list(array):
+    result = []
+    for i in array:
+        result.insert(0, i)
+    return result
+print(reverse_list(array))
+                                    # End.
+
+# Solution 3
+array = [1, 2, 3, 4, 5]
+def reverse_list(array):
+    if len(array) == 1:
+        return array
+    else:
+        return reverse_list(array[1:]) + (array[:1])
+print(reverse_list(array))
+                                    # End.
