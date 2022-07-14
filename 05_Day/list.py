@@ -33,3 +33,8 @@ print(first_item)
 print(third_item)
 print(fifth_item)
                         # End.
+
+# 5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+mixed_data_types = ["Salah", 31, "178 cm", "married", "Egypt" ]
+print(mixed_data_types)
+                            # End.
