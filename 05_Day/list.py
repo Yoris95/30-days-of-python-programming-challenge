@@ -35,6 +35,25 @@ print(fifth_item)
                         # End.
 
 # 5. Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
-mixed_data_types = ["Salah", 31, "178 cm", "married", "Egypt" ]
+mixed_data_types = ["Salah", 31, "178 cm", "married", "Egypt"]
 print(mixed_data_types)
-                            # End.
+                        # End.
+
+# 6. Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+                        # End.
+
+# 7. Print the list using print()
+print(it_companies)
+                        # End.
+
+# 8. Print the number of companies in the list
+print("The number of companies in the list is", len(it_companies))
+                        # End.
+
+# 9. Print the first, middle and last company
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+first_item, second_item, third_item, fourth_item, fifth_item, sixth_item, seventh_item = it_companies
+print(first_item)
+print(fourth_item)
+print(seventh_item)
