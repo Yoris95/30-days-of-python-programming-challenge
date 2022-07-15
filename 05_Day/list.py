@@ -3,8 +3,6 @@
 
 # 1. Declare an empty list
 # Solution 1
-from curses.ascii import isupper
-
 
 empty_list = []
 print(empty_list)
@@ -98,4 +96,18 @@ does_exist = "Facebook" in it_companies
 print(does_exist)
 does_exist = "Paypal" in it_companies
 print(does_exist)
+                        # End.
+
+# 16. Sort the list using sort() method
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+it_companies.sort()
+print(it_companies)
+it_companies.sort(reverse=True)
+print(it_companies)
+                        # End.
+
+# 17. Reverse the list in descending order using reverse() method
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+it_companies.reverse()
+print(it_companies)
                         # End.
