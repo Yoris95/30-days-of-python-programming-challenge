@@ -3,6 +3,9 @@
 
 # 1. Declare an empty list
 # Solution 1
+from curses.ascii import isupper
+
+
 empty_list = []
 print(empty_list)
                         # End.
@@ -58,3 +61,26 @@ print(first_item)
 print(fourth_item)
 print(seventh_item)
                         # End.
+
+# 10. Print the list after modifying one of the companies
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+it_companies[0] = "Twitter"
+print(it_companies)
+                        # End.
+
+# 11. Add an IT company to it_companies
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+it_companies.append("Paypal")
+                        # End.
+
+# 12. Insert an IT company in the middle of the companies list
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle"]
+it_companies.insert(3, "Amazon")
+print(it_companies)
+                        # End.
+
+# 13. Change one of the it_companies names to uppercase (IBM excluded!)
+it_companies = ["facebook", "google", "microsoft", "apple", "oracle"]
+it_companies[0] = it_companies[0].upper()
+print(it_companies)
+                         # End.
