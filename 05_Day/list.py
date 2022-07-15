@@ -84,3 +84,18 @@ it_companies = ["facebook", "google", "microsoft", "apple", "oracle"]
 it_companies[0] = it_companies[0].upper()
 print(it_companies)
                          # End.
+
+# 14. Join the it_companies with a string '#;  '
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+string = ["#; "]
+joined = it_companies + string
+print(joined)
+                        # End.
+
+# 15. Check if a certain company exists in the it_companies list.
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+does_exist = "Facebook" in it_companies
+print(does_exist)
+does_exist = "Paypal" in it_companies
+print(does_exist)
+                        # End.
